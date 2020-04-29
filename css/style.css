@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'MV Boli';
+    src: url('../fonts/MV_Boli.ttf');
+}
+body {
+    overflow-x: hidden;
+}
+.section{
+    border: none;
+}
+
+p, h1 {
+    padding: 0;
+    margin: 0;
+}
+a:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 1px black;
+}
+.header{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+.top__menu-items{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: #fff;
+}
+.top__menu-item{
+    margin: 50px 40px;
+}
+.top__menu-link{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.middle__item{
+    display: block;
+    width: 296px;
+    margin: 50px 30px 0;
+    text-align: center;
+}
+.top__title{
+    color: #f39800;
+    font-size: 40px;
+    font-family: "MV Boli", serif;
+    font-weight: bold;
+}
+.top__bike{
+    width: 85%;
+}
+.center__text{
+    display: block;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    font-family: Arial, serif;
+    text-align: center;
+    margin: 50px auto 0;
+    width: 850px;
+    text-shadow: 2px 3px 3px black;
+}
+.info__background{
+    width: 810px;
+    margin: -97px auto;
+    height: 300px;
+    box-shadow: 0 0 5px black;
+    background-color: white;
+}
+.info{
+    width: 310px;
+    margin: 0 0 0 auto;
+}
+.slider__title{
+    font-size: 21px;
+    padding-top: 25px;
+    font-family: Arial, serif;
+    font-weight: bold;
+}
+.info__tour{
+    margin: 15px 10px 10px 0;
+    display: flex;
+    list-style: none;
+    box-shadow: 0 0 5px black;
+}
+.border-item{
+    border-right: 1px solid #92979B;
+}
+.info__tour-item{
+    width: 73.5px;
+    text-align: center;
+    padding: 5px;
+}
+
+.price{
+    background-color: #f39800;
+    font-weight: bold;
+}
+.upper__text{
+    font-size: 23px;
+    font-family: Arial, serif;
+    color: #f39800;
+}
+.price.upper__text{
+    color: white;
+    font-family: Arial Black, serif;
+}
+.lower__text{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #92979B;
+}
+.tour__description{
+    color: #92979B;
+    font-size: 14px;
+    font-family: Arial, serif;
+}
+.tour__link,
+.tour__link-send{
+    display: inline-block;
+    width: 135px;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+    margin: 10px 5px 0;
+}
+.tour__link{
+    color: #f39800;
+    box-shadow: 0 0 5px black;
+}
+.tour__link-send{
+    background-color: #f39800;
+    color: white;
+}
+.slider_image{
+    width: 446px;
+    margin: -301px 0 0 19px;
+}
+.slider_image-item{
+    width: 100%;
+}
+.arrow__left{
+    width: 62px;
+    display: block;
+    margin: -190px -80px 0;
+}
+.arrow__right{
+    width: 62px;
+    display: block;
+    margin: -73px -82px 0 auto;
+}
